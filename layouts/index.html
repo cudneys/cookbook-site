@@ -119,7 +119,7 @@
     <div class="section-label">Explore</div>
     <h2 class="section-title">Browse by Category</h2>
     <div class="category-grid">
-      {{ $catImages := hugo.Data.category_images }}
+      {{ $catImages := site.Data.category_images }}
       {{ range $name, $pages := $cats }}
       {{ $slug := $name | urlize }}
       {{ $img := "" }}

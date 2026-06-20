@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beef on Scott&#39;s Cookbook</title>
-    <link>http://localhost:1313/categories/beef/</link>
+    <link>https://cookbook.this-old.dad/categories/beef/</link>
     <description>Recent content in Beef on Scott&#39;s Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 17:18:29 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/beef/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cookbook.this-old.dad/categories/beef/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carne Asada</title>
-      <link>http://localhost:1313/recipes/carne-asada/</link>
+      <link>https://cookbook.this-old.dad/recipes/carne-asada/</link>
       <pubDate>Sun, 19 Apr 2026 17:18:29 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/carne-asada/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/carne-asada/</guid>
       <description></description>
     </item>
     <item>
       <title>Marinated Grilled Skirt Steak</title>
-      <link>http://localhost:1313/recipes/marinated-grilled-skirt-steak/</link>
+      <link>https://cookbook.this-old.dad/recipes/marinated-grilled-skirt-steak/</link>
       <pubDate>Sun, 19 Apr 2026 17:13:58 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/marinated-grilled-skirt-steak/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/marinated-grilled-skirt-steak/</guid>
       <description></description>
     </item>
     <item>
       <title>Slow Cooker Beef Stew</title>
-      <link>http://localhost:1313/recipes/slow-cooker-beef-stew/</link>
+      <link>https://cookbook.this-old.dad/recipes/slow-cooker-beef-stew/</link>
       <pubDate>Sun, 19 Apr 2026 17:12:56 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/slow-cooker-beef-stew/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/slow-cooker-beef-stew/</guid>
       <description></description>
     </item>
   </channel>

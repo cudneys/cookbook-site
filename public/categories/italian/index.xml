@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Italian on Scott&#39;s Cookbook</title>
-    <link>http://localhost:1313/categories/italian/</link>
+    <link>https://cookbook.this-old.dad/categories/italian/</link>
     <description>Recent content in Italian on Scott&#39;s Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 17:56:07 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/italian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cookbook.this-old.dad/categories/italian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chicken Parmesan Meatballs</title>
-      <link>http://localhost:1313/recipes/chicken-parmesan-meatballs/</link>
+      <link>https://cookbook.this-old.dad/recipes/chicken-parmesan-meatballs/</link>
       <pubDate>Sun, 19 Apr 2026 17:56:07 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/chicken-parmesan-meatballs/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/chicken-parmesan-meatballs/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Alfredo</title>
-      <link>http://localhost:1313/recipes/chicken-alfredo/</link>
+      <link>https://cookbook.this-old.dad/recipes/chicken-alfredo/</link>
       <pubDate>Sun, 19 Apr 2026 17:55:31 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/chicken-alfredo/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/chicken-alfredo/</guid>
       <description></description>
     </item>
   </channel>

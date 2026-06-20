@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stew on Scott&#39;s Cookbook</title>
-    <link>http://localhost:1313/categories/stew/</link>
+    <link>https://cookbook.this-old.dad/categories/stew/</link>
     <description>Recent content in Stew on Scott&#39;s Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 17:12:56 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/stew/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cookbook.this-old.dad/categories/stew/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Slow Cooker Beef Stew</title>
-      <link>http://localhost:1313/recipes/slow-cooker-beef-stew/</link>
+      <link>https://cookbook.this-old.dad/recipes/slow-cooker-beef-stew/</link>
       <pubDate>Sun, 19 Apr 2026 17:12:56 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/slow-cooker-beef-stew/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/slow-cooker-beef-stew/</guid>
       <description></description>
     </item>
     <item>
       <title>Ethiopian Lentil Stew</title>
-      <link>http://localhost:1313/recipes/ethiopian-lentil-stew/</link>
+      <link>https://cookbook.this-old.dad/recipes/ethiopian-lentil-stew/</link>
       <pubDate>Sun, 19 Apr 2026 17:08:10 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/ethiopian-lentil-stew/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/ethiopian-lentil-stew/</guid>
       <description></description>
     </item>
     <item>
       <title>Doro Wat Ethiopian Chicken Stew</title>
-      <link>http://localhost:1313/recipes/doro-wat-ethiopian-chicken-stew/</link>
+      <link>https://cookbook.this-old.dad/recipes/doro-wat-ethiopian-chicken-stew/</link>
       <pubDate>Sun, 19 Apr 2026 17:03:34 +0000</pubDate>
-      <guid>http://localhost:1313/recipes/doro-wat-ethiopian-chicken-stew/</guid>
+      <guid>https://cookbook.this-old.dad/recipes/doro-wat-ethiopian-chicken-stew/</guid>
       <description></description>
     </item>
   </channel>

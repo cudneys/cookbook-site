@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $slug := .Title | urlize }}
-{{ $catImages := hugo.Data.category_images }}
+{{ $catImages := site.Data.category_images }}
 {{ $img := "" }}
 {{ if $catImages }}{{ $img = index $catImages $slug }}{{ end }}
 
