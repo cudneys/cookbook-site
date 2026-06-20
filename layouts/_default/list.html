@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ $slug := .Title | urlize }}
+{{ $catImages := hugo.Data.category_images }}
+{{ $img := "" }}
+{{ if $catImages }}{{ $img = index $catImages $slug }}{{ end }}
+
+<div class="list-header{{ if $img }} list-header--image{{ end }}">
+  {{ if $img }}
+  <img class="list-header-bg" src="{{ $img }}" alt="{{ .Title }}">
+  {{ end }}
+  <div class="list-header-overlay">
+    <div class="container">
+      <div class="section-label">{{ if .IsSection }}Collection{{ else }}Category{{ end }}</div>
+      <h1 class="list-title">{{ .Title }}</h1>
+      {{ if .Description }}<p class="list-desc">{{ .Description }}</p>{{ end }}
+      <p class="list-count">
+        {{ len .Pages }} recipe{{ if ne (len .Pages) 1 }}s{{ end }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container list-body">
+  {{ if .Pages }}
+  <div class="recipe-grid">
+    {{ range .Pages }}
+      {{ partial "recipe-card.html" . }}
+    {{ end }}
+  </div>
+  {{ else }}
+  <div class="empty-state-hero">
+    <div class="empty-icon">&#127859;</div>
+    <p>No recipes in this collection yet.</p>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

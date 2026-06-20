@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salad on Scott&#39;s Cookbook</title>
+    <link>https://cookbook.this-old.dad/categories/salad/</link>
+    <description>Recent content in Salad on Scott&#39;s Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2026 17:48:35 +0000</lastBuildDate>
+    <atom:link href="https://cookbook.this-old.dad/categories/salad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cranberry-Walnut Chickpea Salad</title>
+      <link>https://cookbook.this-old.dad/recipes/cranberry-walnut-chickpea-salad/</link>
+      <pubDate>Sun, 19 Apr 2026 17:48:35 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/cranberry-walnut-chickpea-salad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fiber-Packed Spicy White Bean &amp; Spinach Salad</title>
+      <link>https://cookbook.this-old.dad/recipes/fiber-packed-spicy-white-bean-spinach-salad/</link>
+      <pubDate>Sun, 19 Apr 2026 17:48:16 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/fiber-packed-spicy-white-bean-spinach-salad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Buffalo Chickpea Salad</title>
+      <link>https://cookbook.this-old.dad/recipes/buffalo-chickpea-salad/</link>
+      <pubDate>Sun, 19 Apr 2026 17:47:59 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/buffalo-chickpea-salad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avocado Egg Salad</title>
+      <link>https://cookbook.this-old.dad/recipes/avocado-egg-salad/</link>
+      <pubDate>Sun, 19 Apr 2026 17:47:34 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/avocado-egg-salad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Everything Bagel Tuna Salad</title>
+      <link>https://cookbook.this-old.dad/recipes/everything-bagel-tuna-salad/</link>
+      <pubDate>Sun, 19 Apr 2026 17:47:04 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/everything-bagel-tuna-salad/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

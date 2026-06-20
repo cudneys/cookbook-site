@@ -1,0 +1,142 @@
+{{ define "main" }}
+
+<!-- ── Hero ─────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-glow hero-glow--1"></div>
+  <div class="hero-glow hero-glow--2"></div>
+  <div class="container hero-inner">
+    <div class="hero-eyebrow">
+      {{ $count := len (where .Site.RegularPages "Section" "recipes") }}
+      {{ if gt $count 0 }}
+      <span>{{ $count }} recipe{{ if gt $count 1 }}s{{ end }} &amp; counting</span>
+      {{ else }}
+      <span>Welcome</span>
+      {{ end }}
+    </div>
+    <h1 class="hero-title">
+      My favorite recipes<br>
+      <em>worth making.</em>
+    </h1>
+    <p class="hero-sub">All the stuff I like to make.</p>
+    <div class="hero-actions">
+      <a href="/recipes/" class="btn btn--primary">Browse Recipes</a>
+      <a href="/categories/" class="btn btn--ghost">By Category</a>
+    </div>
+  </div>
+</section>
+
+{{ $recipes := where .Site.RegularPages "Section" "recipes" }}
+
+{{ if $recipes }}
+
+<!-- ── Featured Recipe ───────────────────────────────────── -->
+{{ $featured := index $recipes 0 }}
+<section class="section">
+  <div class="container">
+    <div class="section-label">Featured Recipe</div>
+    <a href="{{ $featured.RelPermalink }}" class="featured-card">
+      <div class="featured-card-image">
+        {{ if $featured.Params.image }}
+        <img src="{{ $featured.Params.image }}" alt="{{ $featured.Title }}" loading="lazy">
+        {{ else }}
+        <div class="featured-card-image--empty"></div>
+        {{ end }}
+      </div>
+      <div class="featured-card-body">
+        {{ if $featured.Params.categories }}
+        <div class="featured-card-cats">
+          {{ range $featured.Params.categories }}<span class="pill">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+        <h2 class="featured-card-title">{{ $featured.Title }}</h2>
+        {{ if $featured.Description }}
+        <p class="featured-card-desc">{{ $featured.Description }}</p>
+        {{ end }}
+        <div class="featured-card-meta">
+          {{ if $featured.Params.total_time }}
+          <span class="meta-item">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><circle cx="8" cy="8" r="6.5"/><path d="M8 4.5v3.75l2.5 1.5"/></svg>
+            {{ $featured.Params.total_time }}
+          </span>
+          {{ end }}
+          {{ if $featured.Params.servings }}
+          <span class="meta-item">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><path d="M6 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M11 13a5 5 0 0 0-10 0"/></svg>
+            {{ $featured.Params.servings }}
+          </span>
+          {{ end }}
+          {{ if $featured.Params.source_name }}
+          <span class="meta-item meta-item--source">via {{ $featured.Params.source_name }}</span>
+          {{ end }}
+        </div>
+        <span class="featured-card-cta">View Recipe &rarr;</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ── Recipe Grid ───────────────────────────────────────── -->
+{{ if gt (len $recipes) 1 }}
+<section class="section section--tinted">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">All Recipes</div>
+        <h2 class="section-title">Latest additions</h2>
+      </div>
+      <a href="/recipes/" class="section-more">View all &rarr;</a>
+    </div>
+    <div class="recipe-grid">
+      {{ range after 1 (first 7 $recipes) }}
+        {{ partial "recipe-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ else }}
+
+<!-- ── Empty State ───────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="empty-state-hero">
+      <div class="empty-icon">&#127859;</div>
+      <h2>No recipes yet</h2>
+      <p>Use the scraper tool to import your first recipe.</p>
+      <pre class="getting-started">python3 tools/scraper.py --url "https://www.allrecipes.com/recipe/..." --category "dinner"</pre>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+
+<!-- ── Categories ───────────────────────────────────────── -->
+{{ $cats := .Site.Taxonomies.categories }}
+{{ if $cats }}
+<section class="section">
+  <div class="container">
+    <div class="section-label">Explore</div>
+    <h2 class="section-title">Browse by Category</h2>
+    <div class="category-grid">
+      {{ $catImages := hugo.Data.category_images }}
+      {{ range $name, $pages := $cats }}
+      {{ $slug := $name | urlize }}
+      {{ $img := "" }}
+      {{ if $catImages }}{{ $img = index $catImages $slug }}{{ end }}
+      <a href="/categories/{{ $slug }}/" class="category-card{{ if $img }} category-card--image{{ end }}">
+        {{ if $img }}
+        <img class="category-card-bg" src="{{ $img }}" alt="{{ $name }}" loading="lazy">
+        {{ end }}
+        <div class="category-card-body">
+          <span class="category-name">{{ $name }}</span>
+          <span class="category-count">{{ len $pages }} recipe{{ if gt (len $pages) 1 }}s{{ end }}</span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

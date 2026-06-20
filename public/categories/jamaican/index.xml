@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jamaican on Scott&#39;s Cookbook</title>
+    <link>https://cookbook.this-old.dad/categories/jamaican/</link>
+    <description>Recent content in Jamaican on Scott&#39;s Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2026 17:11:27 +0000</lastBuildDate>
+    <atom:link href="https://cookbook.this-old.dad/categories/jamaican/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slow Cooker Jerk Chicken</title>
+      <link>https://cookbook.this-old.dad/recipes/slow-cooker-jerk-chicken/</link>
+      <pubDate>Sun, 19 Apr 2026 17:11:27 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/slow-cooker-jerk-chicken/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jamaican Curry Chicken</title>
+      <link>https://cookbook.this-old.dad/recipes/jamaican-curry-chicken/</link>
+      <pubDate>Sun, 19 Apr 2026 17:09:09 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/jamaican-curry-chicken/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

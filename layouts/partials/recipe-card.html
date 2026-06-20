@@ -1,0 +1,45 @@
+<article class="recipe-card">
+  <a href="{{ .RelPermalink }}" class="recipe-card-link">
+    <div class="recipe-card-image">
+      {{ if .Params.image }}
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+      {{ else }}
+      <div class="recipe-card-image--placeholder">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+          <path d="M24 8C15.163 8 8 15.163 8 24s7.163 16 16 16 16-7.163 16-16S32.837 8 24 8z" stroke="#C4B5A5" stroke-width="2"/>
+          <path d="M18 30c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="#C4B5A5" stroke-width="2" stroke-linecap="round"/>
+          <path d="M24 24V16" stroke="#C4B5A5" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      {{ end }}
+      {{ if .Params.categories }}
+      <div class="card-category-pill">{{ index .Params.categories 0 }}</div>
+      {{ end }}
+    </div>
+    <div class="recipe-card-body">
+      <h3 class="recipe-card-title">{{ .Title }}</h3>
+      {{ if .Description }}
+      <p class="recipe-card-desc">{{ .Description | truncate 90 }}</p>
+      {{ end }}
+      <div class="recipe-card-footer">
+        <div class="recipe-card-meta">
+          {{ if .Params.total_time }}
+          <span class="meta-item">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13"><circle cx="8" cy="8" r="6.5"/><path d="M8 4.5v3.75l2.5 1.5"/></svg>
+            {{ .Params.total_time }}
+          </span>
+          {{ end }}
+          {{ if .Params.servings }}
+          <span class="meta-item">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13"><path d="M6 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M11 13a5 5 0 0 0-10 0"/><path d="M13 6a2 2 0 1 1 0-4"/><path d="M15 13a3 3 0 0 0-3-3"/></svg>
+            {{ .Params.servings }}
+          </span>
+          {{ end }}
+        </div>
+        {{ if .Params.source_name }}
+        <span class="card-source">{{ .Params.source_name }}</span>
+        {{ end }}
+      </div>
+    </div>
+  </a>
+</article>

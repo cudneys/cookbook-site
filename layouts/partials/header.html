@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="site-logo">
+      <svg class="logo-mark" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="18" cy="18" r="17" stroke="currentColor" stroke-width="2"/>
+        <path d="M12 24c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M18 18V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M14 13l4-3 4 3" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-text">{{ .Site.Title }}</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/recipes/" {{ if eq .Section "recipes" }}class="active"{{ end }}>Recipes</a>
+      <a href="/categories/" {{ if eq .Title "Categories" }}class="active"{{ end }}>Categories</a>
+      <a href="/tags/" {{ if eq .Title "Tags" }}class="active"{{ end }}>Tags</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('.site-header').classList.toggle('nav-open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>

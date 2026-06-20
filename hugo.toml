@@ -1,0 +1,14 @@
+baseURL = 'https://cookbook.this-old.dad/'
+languageCode = 'en-us'
+title = "Scott's Cookbook"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "My favorite recipes"
+  author = "Scott"
+
+[markup.goldmark.renderer]
+  unsafe = true

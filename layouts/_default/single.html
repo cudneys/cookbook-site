@@ -1,0 +1,158 @@
+{{ define "main" }}
+<article class="recipe-single">
+
+  <!-- ── Full-bleed Hero ───────────────────────────── -->
+  <div class="recipe-hero{{ if not .Params.image }} recipe-hero--no-image{{ end }}">
+    {{ if .Params.image }}
+    <img class="recipe-hero-img" src="{{ .Params.image }}" alt="{{ .Title }}">
+    {{ end }}
+    <div class="recipe-hero-overlay">
+      <div class="container">
+        <nav class="recipe-breadcrumb">
+          <a href="/">Home</a>
+          <span>/</span>
+          <a href="/recipes/">Recipes</a>
+          {{ if .Params.categories }}
+          <span>/</span>
+          <a href="/categories/{{ index .Params.categories 0 | urlize }}/">{{ index .Params.categories 0 }}</a>
+          {{ end }}
+        </nav>
+        {{ if or .Params.categories .Params.tags }}
+        <div class="recipe-pills">
+          {{ range .Params.categories }}
+            <a href="/categories/{{ . | urlize }}/" class="pill pill--cat">{{ . }}</a>
+          {{ end }}
+          {{ range .Params.tags }}
+            <a href="/tags/{{ . | urlize }}/" class="pill pill--tag">{{ . }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+        <h1 class="recipe-title">{{ .Title }}</h1>
+        {{ if .Description }}
+        <p class="recipe-hero-desc">{{ .Description }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Stats Bar ─────────────────────────────────── -->
+  {{ if or .Params.prep_time .Params.cook_time .Params.total_time .Params.servings .Params.yield }}
+  <div class="stats-bar">
+    <div class="container stats-bar-inner">
+      {{ if .Params.prep_time }}
+      <div class="stat-item">
+        <span class="stat-label">Prep</span>
+        <span class="stat-value">{{ .Params.prep_time }}</span>
+      </div>
+      {{ end }}
+      {{ if .Params.cook_time }}
+      <div class="stat-item">
+        <span class="stat-label">Cook</span>
+        <span class="stat-value">{{ .Params.cook_time }}</span>
+      </div>
+      {{ end }}
+      {{ if .Params.total_time }}
+      <div class="stat-item stat-item--accent">
+        <span class="stat-label">Total</span>
+        <span class="stat-value">{{ .Params.total_time }}</span>
+      </div>
+      {{ end }}
+      {{ if .Params.servings }}
+      <div class="stat-item">
+        <span class="stat-label">Serves</span>
+        <span class="stat-value">{{ .Params.servings }}</span>
+      </div>
+      {{ end }}
+      {{ if .Params.yield }}
+      <div class="stat-item">
+        <span class="stat-label">Yield</span>
+        <span class="stat-value">{{ .Params.yield }}</span>
+      </div>
+      {{ end }}
+      {{ if .Params.source_url }}
+      <div class="stat-item stat-item--source">
+        <span class="stat-label">Source</span>
+        <a href="{{ .Params.source_url }}" target="_blank" rel="noopener noreferrer" class="stat-value stat-source-link">
+          {{ with .Params.source_name }}{{ . }}{{ else }}Original Recipe{{ end }}
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" width="10" height="10"><path d="M2 10L10 2M5 2h5v5"/></svg>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <!-- ── Body ──────────────────────────────────────── -->
+  <div class="recipe-content container">
+
+    <!-- Ingredients (sticky sidebar) -->
+    {{ if .Params.ingredients }}
+    <aside class="recipe-sidebar">
+      <div class="sidebar-inner">
+        <h2 class="content-heading">Ingredients</h2>
+        <p class="ingredient-hint">Tap to check off as you go</p>
+        <ul class="ingredient-list">
+          {{ range .Params.ingredients }}
+          <li class="ingredient-item">
+            <label>
+              <input type="checkbox" class="ingredient-check">
+              <span class="ingredient-text">{{ . }}</span>
+            </label>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </aside>
+    {{ end }}
+
+    <!-- Instructions + extras -->
+    <div class="recipe-main">
+
+      {{ if .Params.instructions }}
+      <section class="recipe-section">
+        <h2 class="content-heading">Instructions</h2>
+        <ol class="instruction-list">
+          {{ range $i, $step := .Params.instructions }}
+          <li class="instruction-step">
+            <div class="step-number">{{ add $i 1 }}</div>
+            <div class="step-body">{{ $step }}</div>
+          </li>
+          {{ end }}
+        </ol>
+      </section>
+      {{ end }}
+
+      {{ if .Content }}
+      <section class="recipe-section recipe-notes">
+        <h2 class="content-heading">Notes</h2>
+        <div class="notes-body">{{ .Content }}</div>
+      </section>
+      {{ end }}
+
+      {{ with .Params.nutrition }}
+      {{ $n := . }}
+      {{ $hasNutrition := false }}
+      {{ range $k, $v := $n }}{{ if $v }}{{ $hasNutrition = true }}{{ end }}{{ end }}
+      {{ if $hasNutrition }}
+      <section class="recipe-section">
+        <h2 class="content-heading">
+          Nutrition
+          <span class="content-heading-note">per serving, approximate</span>
+        </h2>
+        <div class="nutrition-grid">
+          {{ if $n.calories }}<div class="nutrition-item"><span class="n-val">{{ $n.calories }}</span><span class="n-label">Calories</span></div>{{ end }}
+          {{ if $n.fat }}<div class="nutrition-item"><span class="n-val">{{ $n.fat }}</span><span class="n-label">Fat</span></div>{{ end }}
+          {{ if $n.carbohydrates }}<div class="nutrition-item"><span class="n-val">{{ $n.carbohydrates }}</span><span class="n-label">Carbs</span></div>{{ end }}
+          {{ if $n.protein }}<div class="nutrition-item"><span class="n-val">{{ $n.protein }}</span><span class="n-label">Protein</span></div>{{ end }}
+          {{ if $n.fiber }}<div class="nutrition-item"><span class="n-val">{{ $n.fiber }}</span><span class="n-label">Fiber</span></div>{{ end }}
+          {{ if $n.sodium }}<div class="nutrition-item"><span class="n-val">{{ $n.sodium }}</span><span class="n-label">Sodium</span></div>{{ end }}
+        </div>
+      </section>
+      {{ end }}
+      {{ end }}
+
+    </div><!-- /.recipe-main -->
+  </div><!-- /.recipe-content -->
+
+</article>
+{{ end }}

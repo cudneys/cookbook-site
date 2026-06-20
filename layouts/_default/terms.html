@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="list-header">
+  <div class="list-header-overlay">
+    <div class="container">
+      <div class="section-label">Browse</div>
+      <h1 class="list-title">{{ .Title }}</h1>
+      {{ if .Description }}<p class="list-desc">{{ .Description }}</p>{{ end }}
+      <p class="list-count">{{ len .Data.Terms }} {{ .Data.Plural }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container list-body">
+  {{ $catImages := hugo.Data.category_images }}
+  <div class="category-grid">
+    {{ range .Data.Terms.Alphabetical }}
+    {{ $slug := .Page.Title | urlize }}
+    {{ $img := "" }}
+    {{ if $catImages }}{{ $img = index $catImages $slug }}{{ end }}
+    <a href="{{ .Page.RelPermalink }}" class="category-card{{ if $img }} category-card--image{{ end }}">
+      {{ if $img }}
+      <img class="category-card-bg" src="{{ $img }}" alt="{{ .Page.Title }}" loading="lazy">
+      {{ end }}
+      <div class="category-card-body">
+        <span class="category-name">{{ .Page.Title }}</span>
+        <span class="category-count">{{ .Count }} recipe{{ if ne .Count 1 }}s{{ end }}</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dinner on Scott&#39;s Cookbook</title>
+    <link>https://cookbook.this-old.dad/categories/dinner/</link>
+    <description>Recent content in Dinner on Scott&#39;s Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2026 17:03:34 +0000</lastBuildDate>
+    <atom:link href="https://cookbook.this-old.dad/categories/dinner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doro Wat Ethiopian Chicken Stew</title>
+      <link>https://cookbook.this-old.dad/recipes/doro-wat-ethiopian-chicken-stew/</link>
+      <pubDate>Sun, 19 Apr 2026 17:03:34 +0000</pubDate>
+      <guid>https://cookbook.this-old.dad/recipes/doro-wat-ethiopian-chicken-stew/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
