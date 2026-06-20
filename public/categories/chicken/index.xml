@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chicken on Scott&#39;s Cookbook</title>
-    <link>https://cookbook.this-old.dad/categories/chicken/</link>
+    <link>http://localhost:1313/categories/chicken/</link>
     <description>Recent content in Chicken on Scott&#39;s Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 17:56:53 +0000</lastBuildDate>
-    <atom:link href="https://cookbook.this-old.dad/categories/chicken/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/chicken/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chicken Fried Rice</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-fried-rice/</link>
+      <link>http://localhost:1313/recipes/chicken-fried-rice/</link>
       <pubDate>Sun, 19 Apr 2026 17:56:53 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-fried-rice/</guid>
+      <guid>http://localhost:1313/recipes/chicken-fried-rice/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Parmesan Meatballs</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-parmesan-meatballs/</link>
+      <link>http://localhost:1313/recipes/chicken-parmesan-meatballs/</link>
       <pubDate>Sun, 19 Apr 2026 17:56:07 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-parmesan-meatballs/</guid>
+      <guid>http://localhost:1313/recipes/chicken-parmesan-meatballs/</guid>
       <description></description>
     </item>
     <item>
       <title>One Pot Creamy Cajun Chicken Pasta</title>
-      <link>https://cookbook.this-old.dad/recipes/one-pot-creamy-cajun-chicken-pasta/</link>
+      <link>http://localhost:1313/recipes/one-pot-creamy-cajun-chicken-pasta/</link>
       <pubDate>Sun, 19 Apr 2026 17:55:52 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/one-pot-creamy-cajun-chicken-pasta/</guid>
+      <guid>http://localhost:1313/recipes/one-pot-creamy-cajun-chicken-pasta/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Alfredo</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-alfredo/</link>
+      <link>http://localhost:1313/recipes/chicken-alfredo/</link>
       <pubDate>Sun, 19 Apr 2026 17:55:31 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-alfredo/</guid>
+      <guid>http://localhost:1313/recipes/chicken-alfredo/</guid>
       <description></description>
     </item>
     <item>
       <title>Homemade Baked Chicken Nuggets</title>
-      <link>https://cookbook.this-old.dad/recipes/homemade-baked-chicken-nuggets/</link>
+      <link>http://localhost:1313/recipes/homemade-baked-chicken-nuggets/</link>
       <pubDate>Sun, 19 Apr 2026 17:54:38 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/homemade-baked-chicken-nuggets/</guid>
+      <guid>http://localhost:1313/recipes/homemade-baked-chicken-nuggets/</guid>
       <description></description>
     </item>
     <item>
       <title>Herb-Grilled Chicken Frites</title>
-      <link>https://cookbook.this-old.dad/recipes/herb-grilled-chicken-frites/</link>
+      <link>http://localhost:1313/recipes/herb-grilled-chicken-frites/</link>
       <pubDate>Sun, 19 Apr 2026 17:53:44 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/herb-grilled-chicken-frites/</guid>
+      <guid>http://localhost:1313/recipes/herb-grilled-chicken-frites/</guid>
       <description></description>
     </item>
     <item>
       <title>One-Pot Chicken, Spinach &amp; Sun-Dried Tomato Orzo</title>
-      <link>https://cookbook.this-old.dad/recipes/one-pot-chicken-spinach-sun-dried-tomato-orzo/</link>
+      <link>http://localhost:1313/recipes/one-pot-chicken-spinach-sun-dried-tomato-orzo/</link>
       <pubDate>Sun, 19 Apr 2026 17:24:22 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/one-pot-chicken-spinach-sun-dried-tomato-orzo/</guid>
+      <guid>http://localhost:1313/recipes/one-pot-chicken-spinach-sun-dried-tomato-orzo/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Protein Crispy Chicken &amp; Rice Skillet Casserole</title>
-      <link>https://cookbook.this-old.dad/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</link>
+      <link>http://localhost:1313/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</link>
       <pubDate>Sun, 19 Apr 2026 17:23:42 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</guid>
+      <guid>http://localhost:1313/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Fajitas</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-fajitas/</link>
+      <link>http://localhost:1313/recipes/chicken-fajitas/</link>
       <pubDate>Sun, 19 Apr 2026 17:19:16 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-fajitas/</guid>
+      <guid>http://localhost:1313/recipes/chicken-fajitas/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Tinga</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-tinga/</link>
+      <link>http://localhost:1313/recipes/chicken-tinga/</link>
       <pubDate>Sun, 19 Apr 2026 17:18:52 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-tinga/</guid>
+      <guid>http://localhost:1313/recipes/chicken-tinga/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Tortilla Soup</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-tortilla-soup/</link>
+      <link>http://localhost:1313/recipes/chicken-tortilla-soup/</link>
       <pubDate>Sun, 19 Apr 2026 17:14:33 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-tortilla-soup/</guid>
+      <guid>http://localhost:1313/recipes/chicken-tortilla-soup/</guid>
       <description></description>
     </item>
     <item>
       <title>Slow Cooker Jerk Chicken</title>
-      <link>https://cookbook.this-old.dad/recipes/slow-cooker-jerk-chicken/</link>
+      <link>http://localhost:1313/recipes/slow-cooker-jerk-chicken/</link>
       <pubDate>Sun, 19 Apr 2026 17:11:27 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/slow-cooker-jerk-chicken/</guid>
+      <guid>http://localhost:1313/recipes/slow-cooker-jerk-chicken/</guid>
       <description></description>
     </item>
     <item>
       <title>Sweet Sticky Spicy Chicken</title>
-      <link>https://cookbook.this-old.dad/recipes/sweet-sticky-spicy-chicken/</link>
+      <link>http://localhost:1313/recipes/sweet-sticky-spicy-chicken/</link>
       <pubDate>Sun, 19 Apr 2026 17:10:03 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/sweet-sticky-spicy-chicken/</guid>
+      <guid>http://localhost:1313/recipes/sweet-sticky-spicy-chicken/</guid>
       <description></description>
     </item>
     <item>
       <title>Jamaican Curry Chicken</title>
-      <link>https://cookbook.this-old.dad/recipes/jamaican-curry-chicken/</link>
+      <link>http://localhost:1313/recipes/jamaican-curry-chicken/</link>
       <pubDate>Sun, 19 Apr 2026 17:09:09 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/jamaican-curry-chicken/</guid>
+      <guid>http://localhost:1313/recipes/jamaican-curry-chicken/</guid>
       <description></description>
     </item>
     <item>
       <title>Doro Wat Ethiopian Chicken Stew</title>
-      <link>https://cookbook.this-old.dad/recipes/doro-wat-ethiopian-chicken-stew/</link>
+      <link>http://localhost:1313/recipes/doro-wat-ethiopian-chicken-stew/</link>
       <pubDate>Sun, 19 Apr 2026 17:03:34 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/doro-wat-ethiopian-chicken-stew/</guid>
+      <guid>http://localhost:1313/recipes/doro-wat-ethiopian-chicken-stew/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Casserole on Scott&#39;s Cookbook</title>
-    <link>https://cookbook.this-old.dad/categories/casserole/</link>
+    <link>http://localhost:1313/categories/casserole/</link>
     <description>Recent content in Casserole on Scott&#39;s Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 17:25:04 +0000</lastBuildDate>
-    <atom:link href="https://cookbook.this-old.dad/categories/casserole/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/casserole/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Black Bean Fajita Casserole</title>
-      <link>https://cookbook.this-old.dad/recipes/black-bean-fajita-casserole/</link>
+      <link>http://localhost:1313/recipes/black-bean-fajita-casserole/</link>
       <pubDate>Sun, 19 Apr 2026 17:25:04 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/black-bean-fajita-casserole/</guid>
+      <guid>http://localhost:1313/recipes/black-bean-fajita-casserole/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Protein Crispy Chicken &amp; Rice Skillet Casserole</title>
-      <link>https://cookbook.this-old.dad/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</link>
+      <link>http://localhost:1313/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</link>
       <pubDate>Sun, 19 Apr 2026 17:23:42 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</guid>
+      <guid>http://localhost:1313/recipes/high-protein-crispy-chicken-rice-skillet-casserole/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Camp Food on Scott&#39;s Cookbook</title>
-    <link>https://cookbook.this-old.dad/categories/camp-food/</link>
+    <link>http://localhost:1313/categories/camp-food/</link>
     <description>Recent content in Camp Food on Scott&#39;s Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 18:06:35 +0000</lastBuildDate>
-    <atom:link href="https://cookbook.this-old.dad/categories/camp-food/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/camp-food/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tex Mex Chicken Fajita Foil Packets</title>
-      <link>https://cookbook.this-old.dad/recipes/tex-mex-chicken-fajita-foil-packets/</link>
+      <link>http://localhost:1313/recipes/tex-mex-chicken-fajita-foil-packets/</link>
       <pubDate>Sun, 19 Apr 2026 18:06:35 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/tex-mex-chicken-fajita-foil-packets/</guid>
+      <guid>http://localhost:1313/recipes/tex-mex-chicken-fajita-foil-packets/</guid>
       <description></description>
     </item>
     <item>
       <title>Grilled Baked Potatoes</title>
-      <link>https://cookbook.this-old.dad/recipes/grilled-baked-potatoes/</link>
+      <link>http://localhost:1313/recipes/grilled-baked-potatoes/</link>
       <pubDate>Sun, 19 Apr 2026 18:04:58 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/grilled-baked-potatoes/</guid>
+      <guid>http://localhost:1313/recipes/grilled-baked-potatoes/</guid>
       <description></description>
     </item>
     <item>
       <title>Campfire Strawberries</title>
-      <link>https://cookbook.this-old.dad/recipes/campfire-strawberries/</link>
+      <link>http://localhost:1313/recipes/campfire-strawberries/</link>
       <pubDate>Sun, 19 Apr 2026 18:04:05 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/campfire-strawberries/</guid>
+      <guid>http://localhost:1313/recipes/campfire-strawberries/</guid>
       <description></description>
     </item>
   </channel>

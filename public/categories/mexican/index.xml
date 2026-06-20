@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mexican on Scott&#39;s Cookbook</title>
-    <link>https://cookbook.this-old.dad/categories/mexican/</link>
+    <link>http://localhost:1313/categories/mexican/</link>
     <description>Recent content in Mexican on Scott&#39;s Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 17:19:42 +0000</lastBuildDate>
-    <atom:link href="https://cookbook.this-old.dad/categories/mexican/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/mexican/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Slow Cooker Carnitas</title>
-      <link>https://cookbook.this-old.dad/recipes/slow-cooker-carnitas/</link>
+      <link>http://localhost:1313/recipes/slow-cooker-carnitas/</link>
       <pubDate>Sun, 19 Apr 2026 17:19:42 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/slow-cooker-carnitas/</guid>
+      <guid>http://localhost:1313/recipes/slow-cooker-carnitas/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Fajitas</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-fajitas/</link>
+      <link>http://localhost:1313/recipes/chicken-fajitas/</link>
       <pubDate>Sun, 19 Apr 2026 17:19:16 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-fajitas/</guid>
+      <guid>http://localhost:1313/recipes/chicken-fajitas/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Tinga</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-tinga/</link>
+      <link>http://localhost:1313/recipes/chicken-tinga/</link>
       <pubDate>Sun, 19 Apr 2026 17:18:52 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-tinga/</guid>
+      <guid>http://localhost:1313/recipes/chicken-tinga/</guid>
       <description></description>
     </item>
     <item>
       <title>Carne Asada</title>
-      <link>https://cookbook.this-old.dad/recipes/carne-asada/</link>
+      <link>http://localhost:1313/recipes/carne-asada/</link>
       <pubDate>Sun, 19 Apr 2026 17:18:29 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/carne-asada/</guid>
+      <guid>http://localhost:1313/recipes/carne-asada/</guid>
       <description></description>
     </item>
     <item>
       <title>Easy Chili Recipe</title>
-      <link>https://cookbook.this-old.dad/recipes/easy-chili-recipe/</link>
+      <link>http://localhost:1313/recipes/easy-chili-recipe/</link>
       <pubDate>Sun, 19 Apr 2026 17:18:08 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/easy-chili-recipe/</guid>
+      <guid>http://localhost:1313/recipes/easy-chili-recipe/</guid>
       <description></description>
     </item>
     <item>
       <title>Taco Pasta</title>
-      <link>https://cookbook.this-old.dad/recipes/taco-pasta/</link>
+      <link>http://localhost:1313/recipes/taco-pasta/</link>
       <pubDate>Sun, 19 Apr 2026 17:17:06 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/taco-pasta/</guid>
+      <guid>http://localhost:1313/recipes/taco-pasta/</guid>
       <description></description>
     </item>
     <item>
       <title>Restaurant-Style Salsa</title>
-      <link>https://cookbook.this-old.dad/recipes/restaurant-style-salsa/</link>
+      <link>http://localhost:1313/recipes/restaurant-style-salsa/</link>
       <pubDate>Sun, 19 Apr 2026 17:16:38 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/restaurant-style-salsa/</guid>
+      <guid>http://localhost:1313/recipes/restaurant-style-salsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Breakfast Burrito</title>
-      <link>https://cookbook.this-old.dad/recipes/breakfast-burrito/</link>
+      <link>http://localhost:1313/recipes/breakfast-burrito/</link>
       <pubDate>Sun, 19 Apr 2026 17:15:59 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/breakfast-burrito/</guid>
+      <guid>http://localhost:1313/recipes/breakfast-burrito/</guid>
       <description></description>
     </item>
     <item>
       <title>Chicken Tortilla Soup</title>
-      <link>https://cookbook.this-old.dad/recipes/chicken-tortilla-soup/</link>
+      <link>http://localhost:1313/recipes/chicken-tortilla-soup/</link>
       <pubDate>Sun, 19 Apr 2026 17:14:33 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/chicken-tortilla-soup/</guid>
+      <guid>http://localhost:1313/recipes/chicken-tortilla-soup/</guid>
       <description></description>
     </item>
     <item>
       <title>Marinated Grilled Skirt Steak</title>
-      <link>https://cookbook.this-old.dad/recipes/marinated-grilled-skirt-steak/</link>
+      <link>http://localhost:1313/recipes/marinated-grilled-skirt-steak/</link>
       <pubDate>Sun, 19 Apr 2026 17:13:58 +0000</pubDate>
-      <guid>https://cookbook.this-old.dad/recipes/marinated-grilled-skirt-steak/</guid>
+      <guid>http://localhost:1313/recipes/marinated-grilled-skirt-steak/</guid>
       <description></description>
     </item>
   </channel>
