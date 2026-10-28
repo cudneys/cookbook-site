@@ -14,6 +14,7 @@
   "dinner": "/images/categories/dinner.jpg",
   "egg": "/images/categories/egg.jpg",
   "ethiopian": "/images/categories/ethiopian.jpg",
+  "fish": "/images/categories/fish.jpg",
   "gluten-free": "/images/categories/gluten-free.jpg",
   "italian": "/images/categories/italian.jpg",
   "jamaican": "/images/categories/jamaican.jpg",
@@ -21,11 +22,13 @@
   "mexican": "/images/categories/mexican.jpg",
   "muffins": "/images/categories/muffins.jpg",
   "pasta": "/images/categories/pasta.jpg",
+  "pastries": "/images/categories/pastries.jpg",
   "pork-slow-cooker": "/images/categories/pork-slow-cooker.jpg",
   "salad": "/images/categories/salad.jpg",
   "slow-cooker": "/images/categories/slow-cooker.jpg",
   "soup": "/images/categories/soup.jpg",
   "stew": "/images/categories/stew.jpg",
   "tuna": "/images/categories/tuna.jpg",
+  "vegan": "/images/categories/vegan.jpg",
   "vietnamese": "/images/categories/vietnamese.jpg"
 }
