@@ -3,13 +3,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cookbook.this-old.dad/recipes/</loc>
-    <lastmod>2026-04-19T18:10:03+00:00</lastmod>
+    <lastmod>2026-10-28T12:51:59+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/categories/bread/</loc>
+    <lastmod>2026-10-28T12:51:59+00:00</lastmod>
   </url><url>
     <loc>https://cookbook.this-old.dad/categories/</loc>
-    <lastmod>2026-04-19T18:10:03+00:00</lastmod>
+    <lastmod>2026-10-28T12:51:59+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/categories/gluten-free/</loc>
+    <lastmod>2026-10-28T12:51:59+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/gluten-free-sandwich-bread-for-the-bread-machine/</loc>
+    <lastmod>2026-10-28T12:51:59+00:00</lastmod>
   </url><url>
     <loc>https://cookbook.this-old.dad/</loc>
-    <lastmod>2026-04-19T18:10:03+00:00</lastmod>
+    <lastmod>2026-10-28T12:51:59+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/bread-machine-loaf/</loc>
+    <lastmod>2026-10-28T12:51:02+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/gluten-free-pumpkin-cinnamon-swirl-quick-bread/</loc>
+    <lastmod>2026-10-28T12:49:28+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/honey-oat-bread-gluten-free-dairy-free-option/</loc>
+    <lastmod>2026-10-28T12:48:50+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/easy-gluten-free-naan-bread-no-yeast-no-yogurt-dairy-free/</loc>
+    <lastmod>2026-10-28T12:47:58+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/gluten-free-cranberry-bread-with-orange-white-chocolate-and-hazelnuts/</loc>
+    <lastmod>2026-10-28T12:46:14+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/gluten-free-cinnamon-bread-recipe/</loc>
+    <lastmod>2026-10-28T12:46:04+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/gluten-free-pita-bread/</loc>
+    <lastmod>2026-10-28T12:38:26+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/protein-bread-recipe/</loc>
+    <lastmod>2026-10-28T12:35:56+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/gluten-free-bread-in-a-bread-machine/</loc>
+    <lastmod>2026-10-28T12:29:35+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/general-tso-s-chickpeas/</loc>
+    <lastmod>2026-06-24T11:21:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/tags/stir-fry/</loc>
+    <lastmod>2026-06-24T11:21:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/tags/</loc>
+    <lastmod>2026-06-24T11:21:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/tags/vegan/</loc>
+    <lastmod>2026-06-24T11:21:24+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/tags/beef/</loc>
+    <lastmod>2026-06-24T11:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/tags/dinner/</loc>
+    <lastmod>2026-06-24T11:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://cookbook.this-old.dad/recipes/philly-cheesesteak-cabbage-wraps/</loc>
+    <lastmod>2026-06-24T11:19:59+00:00</lastmod>
   </url><url>
     <loc>https://cookbook.this-old.dad/categories/vietnamese/</loc>
     <lastmod>2026-04-19T18:10:03+00:00</lastmod>
@@ -28,9 +85,6 @@
   </url><url>
     <loc>https://cookbook.this-old.dad/recipes/campfire-strawberries/</loc>
     <lastmod>2026-04-19T18:04:05+00:00</lastmod>
-  </url><url>
-    <loc>https://cookbook.this-old.dad/categories/bread/</loc>
-    <lastmod>2026-04-19T18:03:01+00:00</lastmod>
   </url><url>
     <loc>https://cookbook.this-old.dad/recipes/cheddar-jalapeno-oatmeal-bread/</loc>
     <lastmod>2026-04-19T18:03:01+00:00</lastmod>
@@ -244,7 +298,5 @@
   </url><url>
     <loc>https://cookbook.this-old.dad/recipes/doro-wat-ethiopian-chicken-stew/</loc>
     <lastmod>2026-04-19T17:03:34+00:00</lastmod>
-  </url><url>
-    <loc>https://cookbook.this-old.dad/tags/</loc>
   </url>
 </urlset>

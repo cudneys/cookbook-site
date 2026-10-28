@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Dinner on Scott&#39;s Cookbook</title>
+		<link>https://cookbook.this-old.dad/tags/dinner/</link>
+		<description>Recent content in Dinner on Scott&#39;s Cookbook</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jun 2026 11:19:59 +0000</lastBuildDate>
+		
+			<atom:link href="https://cookbook.this-old.dad/tags/dinner/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Philly Cheesesteak Cabbage Wraps</title>
+				<link>https://cookbook.this-old.dad/recipes/philly-cheesesteak-cabbage-wraps/</link>
+				<pubDate>Wed, 24 Jun 2026 11:19:59 +0000</pubDate>
+				<guid>https://cookbook.this-old.dad/recipes/philly-cheesesteak-cabbage-wraps/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

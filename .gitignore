@@ -1,3 +1,5 @@
 .claude
 .hugo_build.lock
 .wrangler
+tools/
+tools/*
