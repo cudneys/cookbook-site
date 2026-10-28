@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Pastries on Scott&#39;s Cookbook</title>
-		<link>http://localhost:1313/categories/pastries/</link>
+		<link>https://cookbook.this-old.dad/categories/pastries/</link>
 		<description>Recent content in Pastries on Scott&#39;s Cookbook</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Wed, 28 Oct 2026 13:01:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/categories/pastries/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://cookbook.this-old.dad/categories/pastries/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Everything Bagel Chicken Salad</title>
-				<link>http://localhost:1313/recipes/everything-bagel-chicken-salad/</link>
+				<link>https://cookbook.this-old.dad/recipes/everything-bagel-chicken-salad/</link>
 				<pubDate>Wed, 28 Oct 2026 13:01:00 +0000</pubDate>
-				<guid>http://localhost:1313/recipes/everything-bagel-chicken-salad/</guid>
+				<guid>https://cookbook.this-old.dad/recipes/everything-bagel-chicken-salad/</guid>
 				<description></description>
 			</item>
 	</channel>
